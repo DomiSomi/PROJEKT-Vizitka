@@ -14,3 +14,87 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background:#b2bec3;
+  font-size: 18px;
+
+}
+
+.vizitka {
+    position: relative;
+    width: 550px;
+    margin: 150px auto 100px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3)
+}
+
+p { 
+text-align: justify;
+}
+
+imggi {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border:  3px solid white;
+    border-radius: 50%;
+    right: -75px;
+    top: -75px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+color: #d63031;
+font-weight: bold;
+font-size: 36px;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+
+.twitter {
+    background-color: #1da1f2;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    color: white;
+    margin: 30px 0 5px 0;
+
+}
+
+.facebook {
+    background-color: #3b5998;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.twitter:hover {
+background-color:#0b7bc1;
+}
+
+.facebook:hover {
+background-color:#2b406e;
+}
+
+
+
+
